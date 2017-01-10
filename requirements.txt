@@ -1,0 +1,47 @@
+book
+	pagenum
+	author
+	summary
+	photo
+	owner (User)
+	currentreader (User)
+	previousLentBy (List<Users>)
+	bookmarkedPage ()
+
+user
+	photo
+	id
+	username
+	booksOwned
+	booksRead
+	booksliked
+	currentlyReading
+	nextInterest
+	stats
+
+members
+
+<LeaderBoard>
+	show all members in a list
+
+<All Books>
+	Show alphabetical order of books owned by all users
+	reserve next
+
+<My Books>
+	Register/Delete/Update Bookinfo
+	Show BookInfo in a list
+	Currently Reading By
+	Next in line
+	Leave thoughts
+
+<Settings>
+	update profile
+
+Usecases
+	RequestBookToReadNext
+	GiveMeBookNowUrgent
+	RequestBookBack
+	LeaveProgress
+	CompleteReviewAndLeaveFeedback
+
